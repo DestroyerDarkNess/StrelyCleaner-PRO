@@ -1,0 +1,1270 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StrelyCleannerPro
+</name>
+</assembly>
+<members>
+<member name="T:StrelyCleannerPro.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources._127_1274197_big">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.AddOpenWithCMD">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithCMD]
+@=&quot;Open Command Prompt here&quot;
+&quot;Icon&quot;=&quot;cmd.exe&quot;
+&quot;NoWorkingDirectory&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithCMD\command]
+@=&quot;cmd.exe /s /k pushd \&quot;%V\&quot;&quot;
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithCMD]
+@=&quot;Open Command Prompt here&quot;
+&quot;Icon&quot;=&quot;cmd.exe&quot;
+&quot;NoWorkingDirectory&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithCMD\command]
+@=&quot;cmd.exe /s /k pushd \&quot;%V\&quot;&quot;
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenWit [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.DesktopShortcuts">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\DesktopShortcuts]
+&quot;MUIVerb&quot;=&quot;Desktop Shortcuts&quot;
+&quot;SubCommands&quot;=&quot;theme;wallpaper;scrnsavr;desktopicons;sound;cursor;DPI;color&quot;
+&quot;icon&quot;=&quot;desk.cpl&quot;
+&quot;Position&quot;=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\theme]
+@=&quot;Change Theme&quot;
+&quot;icon&quot;=&quot;imageres.dll,145&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\theme\command]
+@=&quot;control desk [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.DisableDefenderSafeMode1903Plus">
+<summary>
+  Looks up a localized string similar to rem USE AT OWN RISK AS IS WITHOUT WARRANTY OF ANY KIND !!!!!
+
+rem https://docs.microsoft.com/en-us/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware
+rem &quot;DisableAntiSpyware&quot; is discontinued and will be ignored on client devices, as of the August 2020 (version 4.18.2007.8) update to Microsoft Defender Antivirus.
+
+rem Disable Tamper Protection First !!!!!
+rem https://www.tenforums.com/tutorials/123792-turn-off-tamper-protection-windows-defender-antivirus.html
+reg [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.DisableOfficeTelemetry">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Policies\microsoft\office\16.0\osm\preventedapplications]
+&quot;accesssolution&quot;=dword:00000001
+&quot;olksolution&quot;=dword:00000001
+&quot;onenotesolution&quot;=dword:00000001
+&quot;pptsolution&quot;=dword:00000001
+&quot;projectsolution&quot;=dword:00000001
+&quot;publishersolution&quot;=dword:00000001
+&quot;visiosolution&quot;=dword:00000001
+&quot;wdsolution&quot;=dword:00000001
+&quot;xlsolution&quot;=dword:00000001
+ 
+[HKEY_CURRENT_USER\Software\Policies\microsoft\office\16.0\osm\preventedsolutiontypes]
+&quot;agave&quot;=dword:0000000 [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.DisableOfficeTelemetryTasks">
+<summary>
+  Looks up a localized string similar to schtasks /end /tn &quot;\Microsoft\Office\OfficeTelemetryAgentFallBack2016&quot;
+schtasks /change /tn &quot;\Microsoft\Office\OfficeTelemetryAgentFallBack2016&quot; /disable
+schtasks /end /tn &quot;\Microsoft\Office\OfficeTelemetryAgentLogOn2016&quot;
+schtasks /change /tn &quot;\Microsoft\Office\OfficeTelemetryAgentLogOn2016&quot; /disable
+.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.DisableTelemetryTasks">
+<summary>
+  Looks up a localized string similar to schtasks /end /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\Consolidator&quot;
+schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\Consolidator&quot; /disable
+schtasks /end /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\BthSQM&quot;
+schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\BthSQM&quot; /disable
+schtasks /end /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask&quot;
+schtasks /change /tn &quot;\Microsoft\Windo [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.DisableXboxTasks">
+<summary>
+  Looks up a localized string similar to schtasks /end /tn &quot;\Microsoft\XblGameSave\XblGameSaveTask&quot;
+schtasks /change /tn &quot;\Microsoft\XblGameSave\XblGameSaveTask&quot; /disable
+schtasks /end /tn &quot;\Microsoft\XblGameSave\XblGameSaveTaskLogon&quot;
+schtasks /change /tn &quot;\Microsoft\XblGameSave\XblGameSaveTaskLogon&quot; /disable
+.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.EnableOfficeTelemetry">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Policies\microsoft\office\16.0\osm\preventedapplications]
+&quot;accesssolution&quot;=-
+&quot;olksolution&quot;=-
+&quot;onenotesolution&quot;=-
+&quot;pptsolution&quot;=-
+&quot;projectsolution&quot;=-
+&quot;publishersolution&quot;=-
+&quot;visiosolution&quot;=-
+&quot;wdsolution&quot;=-
+&quot;xlsolution&quot;=-
+ 
+[HKEY_CURRENT_USER\Software\Policies\microsoft\office\16.0\osm\preventedsolutiontypes]
+&quot;agave&quot;=-
+&quot;appaddins&quot;=-
+&quot;comaddins&quot;=-
+&quot;documentfiles&quot;=-
+&quot;templatefiles&quot;=-
+.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.EnableOfficeTelemetryTasks">
+<summary>
+  Looks up a localized string similar to schtasks /change /tn &quot;\Microsoft\Office\OfficeTelemetryAgentFallBack2016&quot; /enable
+schtasks /change /tn &quot;\Microsoft\Office\OfficeTelemetryAgentLogOn2016&quot; /enable
+.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.EnableTelemetryTasks">
+<summary>
+  Looks up a localized string similar to schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\Consolidator&quot; /enable
+schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\BthSQM&quot; /enable
+schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask&quot; /enable
+schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip&quot; /enable
+schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\Uploader&quot; /enable
+schtasks / [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.EnableXboxTasks">
+<summary>
+  Looks up a localized string similar to schtasks /change /tn &quot;\Microsoft\XblGameSave\XblGameSaveTask&quot; /enable
+schtasks /change /tn &quot;\Microsoft\XblGameSave\XblGameSaveTaskLogon&quot; /enable
+.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.FlushDNSCache">
+<summary>
+  Looks up a localized string similar to ipconfig /release
+ipconfig /renew
+arp -d *
+nbtstat -R
+nbtstat -RR
+ipconfig /flushdns
+ipconfig /registerdns.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.GPEditEnablerInHome">
+<summary>
+  Looks up a localized string similar to @echo off 
+pushd &quot;%~dp0&quot; 
+dir /b %SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum &gt;List.txt 
+dir /b %SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum &gt;&gt;List.txt 
+for /f %%i in (&apos;findstr /i . List.txt 2^&gt;nul&apos;) do dism /online /norestart /add-package:&quot;%SystemRoot%\servicing\Packages\%%i&quot; 
+.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.hosts">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.icons8_biohazard_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.icons8_chrome_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.icons8_protect_100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.icons8_puzzle_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.icons8_warning_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.InstallTakeOwnership">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\runas]
+@=&quot;Take Ownership&quot;
+&quot;NoWorkingDirectory&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\*\shell\runas\command]
+@=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; &amp;&amp; icacls \&quot;%1\&quot; /grant administrators:F&quot;
+&quot;IsolatedCommand&quot;=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; &amp;&amp; icacls \&quot;%1\&quot; /grant administrators:F&quot;
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@=&quot;Take Ownership&quot;
+&quot;NoWorkingDirectory&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; /r /d y &amp;&amp; icacls \&quot;% [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.OneDrive_Uninstaller">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.PowerMenu">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Power Menu]
+&quot;MUIVerb&quot;=&quot;Power Menu&quot;
+&quot;SubCommands&quot;=&quot;lock;logoff;switch;sleep;hibernate;restart;safemode;shutdown;hybridshutdown&quot;
+&quot;Icon&quot;=&quot;shell32.dll,215&quot;
+&quot;Position&quot;=&quot;bottom&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\lock]
+@=&quot;Lock&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\lock\command]
+@=&quot;Rundll32 User32.dll,LockWorkStati [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.RemoveTakeOwnership">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+
+[-HKEY_CLASSES_ROOT\*\shell\runas]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\runas]
+.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.SystemShortcuts">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SystemShortcuts]
+&quot;MUIVerb&quot;=&quot;System Shortcuts&quot;
+&quot;SubCommands&quot;=&quot;admintools;datetime;regional;folderoptions;gmode;internetoptions;network;power;appwiz;rbin;run;search;services;sysdm;user;user2;flip3d&quot;
+&quot;icon&quot;=&quot;sysdm.cpl&quot;
+&quot;Position&quot;=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\admintools]
+@=&quot;Administrative Tools&quot;
+&quot;icon&quot;=&quot;imageres.dll,109&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Micros [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.SystemTools">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SystemTools]
+&quot;MUIVerb&quot;=&quot;System Tools&quot;
+&quot;SubCommands&quot;=&quot;control;cleanmgr;devmgr;event;regedit;secctr;msconfig;taskmgr;taskschd;wu&quot;
+&quot;icon&quot;=&quot;imageres.dll,104&quot;
+&quot;Position&quot;=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\control]
+@=&quot;Control Panel&quot;
+&quot;icon&quot;=&quot;control.exe&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\control\command]
+@=&quot;c [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.WindowsApps">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WindowsApps]
+&quot;MUIVerb&quot;=&quot;Windows Apps&quot;
+&quot;SubCommands&quot;=&quot;calc;chmap;cmd;dfrg;ie;notepad;paint;psr;snip;srd;srt;tsch;wmp;wordpad&quot;
+&quot;icon&quot;=&quot;imageres.dll,152&quot;
+&quot;Position&quot;=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\calc]
+@=&quot;Calculator&quot;
+&quot;icon&quot;=&quot;calc.exe&quot;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\calc\command]
+@=&quot;calc.exe&quot;
+
+[HK [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.wkernelbase">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:StrelyCleannerPro.My.Resources.Resources.wntdll">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="T:StrelyCleannerPro.Win32.Helpers.SetWindowStyle.NativeMethods">
+ <summary>
+ Platform Invocation methods (P/Invoke), access unmanaged code.
+ This class does not suppress stack walks for unmanaged code permission.
+ <see cref="T:System.Security.SuppressUnmanagedCodeSecurityAttribute"/>  must not be applied to this class.
+ This class is for methods that can be used anywhere because a stack walk will be performed.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/ms182161.aspx
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowStyle.NativeMethods.FindWindow(System.String,System.String)">
+ <summary>
+ Retrieves a handle to the top-level window whose class name and window name match the specified strings.
+ This function does not search child windows.
+ This function does not perform a case-sensitive search.
+ To search child windows, beginning with a specified child window, use the FindWindowEx function.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633499%28v=vs.85%29.aspx
+ </summary>
+ <param name="lpClassName">The class name.
+ If this parameter is NULL, it finds any window whose title matches the lpWindowName parameter.</param>
+ <param name="lpWindowName">The window name (the window's title).
+ If this parameter is NULL, all window names match.</param>
+ <returns>If the function succeeds, the return value is a handle to the window that has the specified class name and window name.
+ If the function fails, the return value is NULL.</returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowStyle.NativeMethods.FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)">
+ <summary>
+ Retrieves a handle to a window whose class name and window name match the specified strings. 
+ The function searches child windows, beginning with the one following the specified child window. 
+ This function does not perform a case-sensitive search.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633500%28v=vs.85%29.aspx
+ </summary>
+ <param name="hwndParent">
+ A handle to the parent window whose child windows are to be searched.
+ If hwndParent is NULL, the function uses the desktop window as the parent window. 
+ The function searches among windows that are child windows of the desktop. 
+ </param>
+ <param name="hwndChildAfter">
+ A handle to a child window. 
+ The search begins with the next child window in the Z order. 
+ The child window must be a direct child window of hwndParent, not just a descendant window.
+ If hwndChildAfter is NULL, the search begins with the first child window of hwndParent.
+ </param>
+ <param name="strClassName">
+ The window class name.
+ </param>
+ <param name="strWindowName">
+ The window name (the window's title). 
+ If this parameter is NULL, all window names match.
+ </param>
+ <returns>
+ If the function succeeds, the return value is a handle to the window that has the specified class and window names.
+ If the function fails, the return value is NULL.
+ </returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowStyle.NativeMethods.GetWindowThreadProcessId(System.IntPtr,System.Int32@)">
+ <summary>
+ Retrieves the identifier of the thread that created the specified window 
+ and, optionally, the identifier of the process that created the window.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633522%28v=vs.85%29.aspx
+ </summary>
+ <param name="hWnd">A handle to the window.</param>
+ <param name="ProcessId">
+ A pointer to a variable that receives the process identifier. 
+ If this parameter is not NULL, GetWindowThreadProcessId copies the identifier of the process to the variable; 
+ otherwise, it does not.
+ </param>
+ <returns>The identifier of the thread that created the window.</returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowStyle.SetWindowStyle(System.IntPtr,StrelyCleannerPro.Win32.Helpers.SetWindowStyle.WindowStyles)">
+ <summary>
+ Set the state of a window by an HWND.
+ </summary>
+ <param name="WindowHandle">A handle to the window.</param>
+ <param name="WindowStyle">The Style of the window.</param>
+ <returns><c>true</c> if the function succeeds, <c>false</c> otherwise.</returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowStyle.SetWindowStyle(System.String,StrelyCleannerPro.Win32.Helpers.SetWindowStyle.WindowStyles,System.Boolean)">
+ <summary>
+ Set the state of a window by a process name.
+ </summary>
+ <param name="ProcessName">The name of the process.</param>
+ <param name="WindowStyle">The Style of the window.</param>
+ <param name="Recursivity">If set to <c>false</c>, only the first process instance will be processed.</param>
+</member>
+<member name="T:StrelyCleannerPro.Win32.Helpers.SetWindowState.NativeMethods">
+ <summary>
+ Platform Invocation methods (P/Invoke), access unmanaged code.
+ This class does not suppress stack walks for unmanaged code permission.
+ <see cref="T:System.Security.SuppressUnmanagedCodeSecurityAttribute"/>  must not be applied to this class.
+ This class is for methods that can be used anywhere because a stack walk will be performed.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/ms182161.aspx
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowState.NativeMethods.FindWindow(System.String,System.String)">
+ <summary>
+ Retrieves a handle to the top-level window whose class name and window name match the specified strings.
+ This function does not search child windows.
+ This function does not perform a case-sensitive search.
+ To search child windows, beginning with a specified child window, use the FindWindowEx function.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633499%28v=vs.85%29.aspx
+ </summary>
+ <param name="lpClassName">The class name.
+ If this parameter is NULL, it finds any window whose title matches the lpWindowName parameter.</param>
+ <param name="lpWindowName">The window name (the window's title).
+ If this parameter is NULL, all window names match.</param>
+ <returns>If the function succeeds, the return value is a handle to the window that has the specified class name and window name.
+ If the function fails, the return value is NULL.</returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowState.NativeMethods.FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)">
+ <summary>
+ Retrieves a handle to a window whose class name and window name match the specified strings. 
+ The function searches child windows, beginning with the one following the specified child window. 
+ This function does not perform a case-sensitive search.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633500%28v=vs.85%29.aspx
+ </summary>
+ <param name="hwndParent">
+ A handle to the parent window whose child windows are to be searched.
+ If hwndParent is NULL, the function uses the desktop window as the parent window. 
+ The function searches among windows that are child windows of the desktop. 
+ </param>
+ <param name="hwndChildAfter">
+ A handle to a child window. 
+ The search begins with the next child window in the Z order. 
+ The child window must be a direct child window of hwndParent, not just a descendant window.
+ If hwndChildAfter is NULL, the search begins with the first child window of hwndParent.
+ </param>
+ <param name="strClassName">
+ The window class name.
+ </param>
+ <param name="strWindowName">
+ The window name (the window's title). 
+ If this parameter is NULL, all window names match.
+ </param>
+ <returns>
+ If the function succeeds, the return value is a handle to the window that has the specified class and window names.
+ If the function fails, the return value is NULL.
+ </returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowState.NativeMethods.GetWindowThreadProcessId(System.IntPtr,System.Int32@)">
+ <summary>
+ Retrieves the identifier of the thread that created the specified window 
+ and, optionally, the identifier of the process that created the window.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633522%28v=vs.85%29.aspx
+ </summary>
+ <param name="hWnd">A handle to the window.</param>
+ <param name="ProcessId">
+ A pointer to a variable that receives the process identifier. 
+ If this parameter is not NULL, GetWindowThreadProcessId copies the identifier of the process to the variable; 
+ otherwise, it does not.
+ </param>
+ <returns>The identifier of the thread that created the window.</returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowState.NativeMethods.ShowWindow(System.IntPtr,StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState)">
+ <summary>
+ Sets the specified window's show state.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633548%28v=vs.85%29.aspx
+ </summary>
+ <param name="hwnd">A handle to the window.</param>
+ <param name="nCmdShow">Controls how the window is to be shown.</param>
+ <returns><c>true</c> if the function succeeds, <c>false</c> otherwise.</returns>
+</member>
+<member name="T:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState">
+ <summary>
+ Controls how the window is to be shown.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633548%28v=vs.85%29.aspx
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Hide">
+ <summary>
+ Hides the window and activates another window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Normal">
+ <summary>
+ Activates and displays a window. 
+ If the window is minimized or maximized, the system restores it to its original size and position.
+ An application should specify this flag when displaying the window for the first time.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ShowMinimized">
+ <summary>
+ Activates the window and displays it as a minimized window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Maximize">
+ <summary>
+ Maximizes the specified window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ShowMaximized">
+ <summary>
+ Activates the window and displays it as a maximized window.
+ </summary>      
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ShowNoActivate">
+ <summary>
+ Displays a window in its most recent size and position. 
+ This value is similar to <see cref="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Normal"/>, except the window is not actived.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Show">
+ <summary>
+ Activates the window and displays it in its current size and position.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Minimize">
+ <summary>
+ Minimizes the specified window and activates the next top-level window in the Z order.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ShowMinNoActive">
+ <summary>
+ Displays the window as a minimized window. 
+ This value is similar to <see cref="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ShowMinimized"/>, except the window is not activated.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ShowNA">
+ <summary>
+ Displays the window in its current size and position.
+ This value is similar to <see cref="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Show"/>, except the window is not activated.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.Restore">
+ <summary>
+ Activates and displays the window. 
+ If the window is minimized or maximized, the system restores it to its original size and position.
+ An application should specify this flag when restoring a minimized window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ShowDefault">
+ <summary>
+ Sets the show state based on the SW_* value specified in the STARTUPINFO structure 
+ passed to the CreateProcess function by the program that started the application.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState.ForceMinimize">
+ <summary>
+ <b>Windows 2000/XP:</b> 
+ Minimizes a window, even if the thread that owns the window is not responding. 
+ This flag should only be used when minimizing windows from a different thread.
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowState.SetWindowState(System.IntPtr,StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState)">
+ <summary>
+ Set the state of a window by an HWND.
+ </summary>
+ <param name="WindowHandle">A handle to the window.</param>
+ <param name="WindowState">The state of the window.</param>
+ <returns><c>true</c> if the function succeeds, <c>false</c> otherwise.</returns>
+</member>
+<member name="M:StrelyCleannerPro.Win32.Helpers.SetWindowState.SetWindowState(System.String,StrelyCleannerPro.Win32.Helpers.SetWindowState.WindowState,System.Boolean)">
+ <summary>
+ Set the state of a window by a process name.
+ </summary>
+ <param name="ProcessName">The name of the process.</param>
+ <param name="WindowState">The state of the window.</param>
+ <param name="Recursivity">If set to <c>false</c>, only the first process instance will be processed.</param>
+</member>
+<member name="P:StrelyCleannerPro.Controls.Core.Animator.StartValue">
+ <summary>
+ Start value
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:StrelyCleannerPro.Controls.Core.Animator.StopValue">
+ <summary>
+ Stop value
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:StrelyCleannerPro.Controls.Core.Animator.Time">
+ <summary>
+ Current Time in milli seconds
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:StrelyCleannerPro.Controls.Core.Animator.Duration">
+ <summary>
+ Durration of Animation in milli seconds
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:StrelyCleannerPro.Controls.Core.Animator.Function">
+ <summary>
+ Funktion that defines value calculation
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:StrelyCleannerPro.Controls.Core.Animator.#ctor(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ New linear Animator
+ </summary>
+ <param name="Start">Start value</param>
+ <param name="[Stop]">Stop Value</param>
+ <param name="Duration">Duration in milli seconds</param>
+</member>
+<member name="M:StrelyCleannerPro.Controls.Core.Animator.#ctor(System.Int32,System.Int32,System.Int32,System.Func{System.Single,System.Single})">
+ <summary>
+ New custom Animator
+ </summary>
+ <param name="Start">Start value</param>
+ <param name="[Stop]">Stop value</param>
+ <param name="Duration">Duration in milli seconds</param>
+ <param name="[Function]">Funktion that defines value calculation</param>
+</member>
+<member name="T:StrelyCleannerPro.DrawHelpers">
+ <summary>
+ LogIn GDI+ Theme
+ Creator: Xertz (HF)
+ Version: 1.4
+ Control Count: 28
+ Date Created: 18/12/2013
+ Date Changed: 07/09/2014
+ UID: 1602992
+ For any bugs / errors, PM me.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:StrelyCleannerPro.Core.ScrollManager.IsDisposed">
+ <summary>
+ To detect redundant calls when disposing.
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.Core.ScrollManager.Dispose">
+ <summary>
+ Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.Core.ScrollManager.Dispose(System.Boolean)">
+ <summary>
+ Releases unmanaged and - optionally - managed resources.
+ </summary>
+ <param name="IsDisposing">
+ <c>true</c> to release both managed and unmanaged resources; 
+ <c>false</c> to release only unmanaged resources.
+ </param>
+</member>
+<member name="T:StrelyCleannerPro.Types.IBufferedControl">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Provides simple double buffering (anti flickering) functionality for a Windows Forms <see cref="T:System.Windows.Forms.Control"/>,
+ such for example a <see cref="T:System.Windows.Forms.TextBox"/>.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:StrelyCleannerPro.Types.IBufferedControl.CreateParams">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the required creation parameters when the control handle is created.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ The creation parameters.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:StrelyCleannerPro.Types.IBufferedControl.DoubleBuffered">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether this control should redraw its surface using a secondary buffer 
+ to reduce or prevent flicker.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ <see langword="True"/> if the surface of the control should be drawn using double buffering; 
+ otherwise, <see langword="False"/>.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:StrelyCleannerPro.Types.IBufferedControl.PreventFlickering">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that indicates whether the control should avoid unwanted flickering effects.
+ <para></para>
+ If <see langword="True"/>, this will avoid any flickering effect on the control, however,
+ it will also have a negative impact by slowing down the responsiveness of the control about to 30% slower.
+ <para></para>
+ This negative impact doesn't affect to the performance of the application itself, 
+ just to the performance of this control.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ A value that indicates whether the control should avoid unwanted flickering effects.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:StrelyCleannerPro.PanelFX.CreateParams">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the required creation parameters when the control handle is created.
+ <para></para>
+ The information returned by the <see cref="P:StrelyCleannerPro.PanelFX.CreateParams"/> property is used to pass information about the 
+ initial state and appearance of this control, at the time an instance of this class is being created.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ The creation parameters.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:StrelyCleannerPro.PanelFX.DoubleBuffered">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether this control should redraw its surface using a secondary buffer 
+ to reduce or prevent flicker.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ <see langword="True"/> if the surface of the control should be drawn using double buffering; 
+ otherwise, <see langword="False"/>.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:StrelyCleannerPro.PanelFX.PreventFlickering">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that indicates whether the control should avoid unwanted flickering effects.
+ <para></para>
+ If <see langword="True"/>, this will avoid any flickering effect on the control, however,
+ it will also have a negative impact by slowing down the responsiveness of the control about to 30% slower.
+ <para></para>
+ This negative impact doesn't affect to the performance of the application itself, 
+ just to the performance of this control.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ A value that indicates whether the control should avoid unwanted flickering effects.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:StrelyCleannerPro.PanelFX.preventFlickeringB">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ ( Backing Field )
+ A value that indicates whether the control should avoid unwanted flickering effects.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_ACCEPTFILES">
+ <summary>Specifies a window that accepts drag-drop files.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_APPWINDOW">
+ <summary>Forces a top-level window onto the taskbar when the window is visible.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_CLIENTEDGE">
+ <summary>Specifies a window that has a border with a sunken edge.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_COMPOSITED">
+ <summary>
+ Specifies a window that paints all descendants in bottom-to-top painting order using double-buffering.
+ This cannot be used if the window has a class style of either CS_OWNDC or CS_CLASSDC. This style is not supported in Windows 2000.
+ </summary>
+ <remarks>
+ With WS_EX_COMPOSITED set, all descendants of a window get bottom-to-top painting order using double-buffering.
+ Bottom-to-top painting order allows a descendent window to have translucency (alpha) and transparency (color-key) effects,
+ but only if the descendent window also has the WS_EX_TRANSPARENT bit set.
+ Double-buffering allows the window and its descendents to be painted without flicker.
+ </remarks>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_CONTEXTHELP">
+ <summary>
+ Specifies a window that includes a question mark in the title bar. When the user clicks the question mark,
+ the cursor changes to a question mark with a pointer. If the user then clicks a child window, the child receives a WM_HELP message.
+ The child window should pass the message to the parent window procedure, which should call the WinHelp function using the HELP_WM_HELP command.
+ The Help application displays a pop-up window that typically contains help for the child window.
+ WS_EX_CONTEXTHELP cannot be used with the WS_MAXIMIZEBOX or WS_MINIMIZEBOX styles.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_CONTROLPARENT">
+ <summary>
+ Specifies a window which contains child windows that should take part in dialog box navigation.
+ If this style is specified, the dialog manager recurses into children of this window when performing navigation operations
+ such as handling the TAB key, an arrow key, or a keyboard mnemonic.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_DLGMODALFRAME">
+ <summary>Specifies a window that has a double border.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_LAYERED">
+ <summary>
+ Specifies a window that is a layered window.
+ This cannot be used for child windows or if the window has a class style of either CS_OWNDC or CS_CLASSDC.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_LAYOUTRTL">
+ <summary>
+ Specifies a window with the horizontal origin on the right edge. Increasing horizontal values advance to the left.
+ The shell language must support reading-order alignment for this to take effect.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_LEFT">
+ <summary>Specifies a window that has generic left-aligned properties. This is the default.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_LEFTSCROLLBAR">
+ <summary>
+ Specifies a window with the vertical scroll bar (if present) to the left of the client area.
+ The shell language must support reading-order alignment for this to take effect.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_LTRREADING">
+ <summary>
+ Specifies a window that displays text using left-to-right reading-order properties. This is the default.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_MDICHILD">
+ <summary>
+ Specifies a multiple-document interface (MDI) child window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_NOACTIVATE">
+ <summary>
+ Specifies a top-level window created with this style does not become the foreground window when the user clicks it.
+ The system does not bring this window to the foreground when the user minimizes or closes the foreground window.
+ The window does not appear on the taskbar by default. To force the window to appear on the taskbar, use the WS_EX_APPWINDOW style.
+ To activate the window, use the SetActiveWindow or SetForegroundWindow function.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_NOINHERITLAYOUT">
+ <summary>
+ Specifies a window which does not pass its window layout to its child windows.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_NOPARENTNOTIFY">
+ <summary>
+ Specifies that a child window created with this style does not send the WM_PARENTNOTIFY message to its parent window when it is created or destroyed.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_NOREDIRECTIONBITMAP">
+ <summary>
+ The window does not render to a redirection surface.
+ This is for windows that do not have visible content or that use mechanisms other than surfaces to provide their visual.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_OVERLAPPEDWINDOW">
+ <summary>Specifies an overlapped window.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_PALETTEWINDOW">
+ <summary>Specifies a palette window, which is a modeless dialog box that presents an array of commands.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_RIGHT">
+ <summary>
+ Specifies a window that has generic "right-aligned" properties. This depends on the window class.
+ The shell language must support reading-order alignment for this to take effect.
+ Using the WS_EX_RIGHT style has the same effect as using the SS_RIGHT (static), ES_RIGHT (edit), and BS_RIGHT/BS_RIGHTBUTTON (button) control styles.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_RIGHTSCROLLBAR">
+ <summary>Specifies a window with the vertical scroll bar (if present) to the right of the client area. This is the default.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_RTLREADING">
+ <summary>
+ Specifies a window that displays text using right-to-left reading-order properties.
+ The shell language must support reading-order alignment for this to take effect.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_STATICEDGE">
+ <summary>Specifies a window with a three-dimensional border style intended to be used for items that do not accept user input.</summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_TOOLWINDOW">
+ <summary>
+ Specifies a window that is intended to be used as a floating toolbar.
+ A tool window has a title bar that is shorter than a normal title bar, and the window title is drawn using a smaller font.
+ A tool window does not appear in the taskbar or in the dialog that appears when the user presses ALT+TAB.
+ If a tool window has a system menu, its icon is not displayed on the title bar.
+ However, you can display the system menu by right-clicking or by typing ALT+SPACE.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_TOPMOST">
+ <summary>
+ Specifies a window that should be placed above all non-topmost windows and should stay above them, even when the window is deactivated.
+ To add or remove this style, use the SetWindowPos function.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_TRANSPARENT">
+ <summary>
+ Specifies a window that should not be painted until siblings beneath the window (that were created by the same thread) have been painted.
+ The window appears transparent because the bits of underlying sibling windows have already been painted.
+ To achieve transparency without these restrictions, use the SetWindowRgn function.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.Win32FX.WindowStylesEx.WS_EX_WINDOWEDGE">
+ <summary>Specifies a window that has a border with a raised edge.</summary>
+</member>
+<member name="T:StrelyCleannerPro.SetWindowState">
+ <summary>
+ Sets the state of a window.
+ </summary>
+</member>
+<member name="T:StrelyCleannerPro.SetWindowState.NativeMethods">
+ <summary>
+ Platform Invocation methods (P/Invoke), access unmanaged code.
+ This class does not suppress stack walks for unmanaged code permission.
+ <see cref="T:System.Security.SuppressUnmanagedCodeSecurityAttribute"/>  must not be applied to this class.
+ This class is for methods that can be used anywhere because a stack walk will be performed.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/ms182161.aspx
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.SetWindowState.NativeMethods.FindWindow(System.String,System.String)">
+ <summary>
+ Retrieves a handle to the top-level window whose class name and window name match the specified strings.
+ This function does not search child windows.
+ This function does not perform a case-sensitive search.
+ To search child windows, beginning with a specified child window, use the FindWindowEx function.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633499%28v=vs.85%29.aspx
+ </summary>
+ <param name="lpClassName">The class name.
+ If this parameter is NULL, it finds any window whose title matches the lpWindowName parameter.</param>
+ <param name="lpWindowName">The window name (the window's title).
+ If this parameter is NULL, all window names match.</param>
+ <returns>If the function succeeds, the return value is a handle to the window that has the specified class name and window name.
+ If the function fails, the return value is NULL.</returns>
+</member>
+<member name="M:StrelyCleannerPro.SetWindowState.NativeMethods.FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)">
+ <summary>
+ Retrieves a handle to a window whose class name and window name match the specified strings. 
+ The function searches child windows, beginning with the one following the specified child window. 
+ This function does not perform a case-sensitive search.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633500%28v=vs.85%29.aspx
+ </summary>
+ <param name="hwndParent">
+ A handle to the parent window whose child windows are to be searched.
+ If hwndParent is NULL, the function uses the desktop window as the parent window. 
+ The function searches among windows that are child windows of the desktop. 
+ </param>
+ <param name="hwndChildAfter">
+ A handle to a child window. 
+ The search begins with the next child window in the Z order. 
+ The child window must be a direct child window of hwndParent, not just a descendant window.
+ If hwndChildAfter is NULL, the search begins with the first child window of hwndParent.
+ </param>
+ <param name="strClassName">
+ The window class name.
+ </param>
+ <param name="strWindowName">
+ The window name (the window's title). 
+ If this parameter is NULL, all window names match.
+ </param>
+ <returns>
+ If the function succeeds, the return value is a handle to the window that has the specified class and window names.
+ If the function fails, the return value is NULL.
+ </returns>
+</member>
+<member name="M:StrelyCleannerPro.SetWindowState.NativeMethods.GetWindowThreadProcessId(System.IntPtr,System.Int32@)">
+ <summary>
+ Retrieves the identifier of the thread that created the specified window 
+ and, optionally, the identifier of the process that created the window.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633522%28v=vs.85%29.aspx
+ </summary>
+ <param name="hWnd">A handle to the window.</param>
+ <param name="ProcessId">
+ A pointer to a variable that receives the process identifier. 
+ If this parameter is not NULL, GetWindowThreadProcessId copies the identifier of the process to the variable; 
+ otherwise, it does not.
+ </param>
+ <returns>The identifier of the thread that created the window.</returns>
+</member>
+<member name="M:StrelyCleannerPro.SetWindowState.NativeMethods.ShowWindow(System.IntPtr,StrelyCleannerPro.SetWindowState.WindowState)">
+ <summary>
+ Sets the specified window's show state.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633548%28v=vs.85%29.aspx
+ </summary>
+ <param name="hwnd">A handle to the window.</param>
+ <param name="nCmdShow">Controls how the window is to be shown.</param>
+ <returns><c>true</c> if the function succeeds, <c>false</c> otherwise.</returns>
+</member>
+<member name="T:StrelyCleannerPro.SetWindowState.WindowState">
+ <summary>
+ Controls how the window is to be shown.
+ MSDN Documentation: http://msdn.microsoft.com/en-us/library/windows/desktop/ms633548%28v=vs.85%29.aspx
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.Hide">
+ <summary>
+ Hides the window and activates another window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.Normal">
+ <summary>
+ Activates and displays a window. 
+ If the window is minimized or maximized, the system restores it to its original size and position.
+ An application should specify this flag when displaying the window for the first time.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.ShowMinimized">
+ <summary>
+ Activates the window and displays it as a minimized window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.Maximize">
+ <summary>
+ Maximizes the specified window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.ShowMaximized">
+ <summary>
+ Activates the window and displays it as a maximized window.
+ </summary>      
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.ShowNoActivate">
+ <summary>
+ Displays a window in its most recent size and position. 
+ This value is similar to <see cref="F:StrelyCleannerPro.SetWindowState.WindowState.Normal"/>, except the window is not actived.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.Show">
+ <summary>
+ Activates the window and displays it in its current size and position.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.Minimize">
+ <summary>
+ Minimizes the specified window and activates the next top-level window in the Z order.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.ShowMinNoActive">
+ <summary>
+ Displays the window as a minimized window. 
+ This value is similar to <see cref="F:StrelyCleannerPro.SetWindowState.WindowState.ShowMinimized"/>, except the window is not activated.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.ShowNA">
+ <summary>
+ Displays the window in its current size and position.
+ This value is similar to <see cref="F:StrelyCleannerPro.SetWindowState.WindowState.Show"/>, except the window is not activated.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.Restore">
+ <summary>
+ Activates and displays the window. 
+ If the window is minimized or maximized, the system restores it to its original size and position.
+ An application should specify this flag when restoring a minimized window.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.ShowDefault">
+ <summary>
+ Sets the show state based on the SW_* value specified in the STARTUPINFO structure 
+ passed to the CreateProcess function by the program that started the application.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.SetWindowState.WindowState.ForceMinimize">
+ <summary>
+ <b>Windows 2000/XP:</b> 
+ Minimizes a window, even if the thread that owns the window is not responding. 
+ This flag should only be used when minimizing windows from a different thread.
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.SetWindowState.SetWindowState(System.IntPtr,StrelyCleannerPro.SetWindowState.WindowState)">
+ <summary>
+ Set the state of a window by an HWND.
+ </summary>
+ <param name="WindowHandle">A handle to the window.</param>
+ <param name="WindowState">The state of the window.</param>
+ <returns><c>true</c> if the function succeeds, <c>false</c> otherwise.</returns>
+</member>
+<member name="M:StrelyCleannerPro.SetWindowState.SetWindowState(System.String,StrelyCleannerPro.SetWindowState.WindowState,System.Boolean)">
+ <summary>
+ Set the state of a window by a process name.
+ </summary>
+ <param name="ProcessName">The name of the process.</param>
+ <param name="WindowState">The state of the window.</param>
+ <param name="Recursivity">If set to <c>false</c>, only the first process instance will be processed.</param>
+</member>
+<member name="T:StrelyCleannerPro.TimeMeasurer">
+ <summary>
+ Measure a time interval.
+ This can be used as a chronometer or countdown timer.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer.TimeElapsed">
+ <summary>
+ <see cref="T:System.Diagnostics.Stopwatch"/> instance to retrieve the elapsed time.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer.TimeRemaining">
+ <summary>
+ <see cref="T:System.TimeSpan"/> instance to retrieve the remaining time.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer._MeasureTimer">
+ <summary>
+ <see cref="T:System.Windows.Forms.Timer"/> instance that updates the elapsed and remaining times and raises the events.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer.IsFinished">
+ <summary>
+ Indicates wheter the <see cref="T:StrelyCleannerPro.TimeMeasurer"/> instance has finished to measure intervals.
+ </summary>
+</member>
+<member name="P:StrelyCleannerPro.TimeMeasurer.State">
+ <summary>
+ Gets the current state of this <see cref="T:StrelyCleannerPro.TimeMeasurer"/> instance.
+ </summary>
+ <value>The update interval.</value>
+</member>
+<member name="P:StrelyCleannerPro.TimeMeasurer.UpdateInterval">
+ <summary>
+ Gets or sets the update interval.
+ </summary>
+ <value>The update interval.</value>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer._UpdateInterval">
+ <summary>
+ The update interval
+ </summary>
+</member>
+<member name="T:StrelyCleannerPro.TimeMeasurer.TimeMeasurerState">
+ <summary>
+ Specifies the current state of a <see cref="T:StrelyCleannerPro.TimeMeasurer"/> instance.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer.TimeMeasurerState.Running">
+ <summary>
+ The <see cref="T:StrelyCleannerPro.TimeMeasurer"/> instance is running and measuring time intervals.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer.TimeMeasurerState.Stopped">
+ <summary>
+ The <see cref="T:StrelyCleannerPro.TimeMeasurer"/> instance is temporally stopped, waiting to resume.
+ </summary>
+</member>
+<member name="F:StrelyCleannerPro.TimeMeasurer.TimeMeasurerState.Finished">
+ <summary>
+ The <see cref="T:StrelyCleannerPro.TimeMeasurer"/> instance has finished to measure the time intervals.
+ </summary>
+</member>
+<member name="E:StrelyCleannerPro.TimeMeasurer.ElapsedTimeUpdated">
+ <summary>
+ Occurs when the elapsed time updates.
+ </summary>
+</member>
+<member name="E:StrelyCleannerPro.TimeMeasurer.RemainingTimeUpdated">
+ <summary>
+ Occurs when the remaining time updates.
+ </summary>
+</member>
+<member name="E:StrelyCleannerPro.TimeMeasurer.ElapsedTimeFinished">
+ <summary>
+ Occurs when the elapsed time finishes.
+ </summary>
+</member>
+<member name="E:StrelyCleannerPro.TimeMeasurer.RemainingTimeFinished">
+ <summary>
+ Occurs when the elapsed time finishes.
+ </summary>
+</member>
+<member name="T:StrelyCleannerPro.TimeMeasurer.TimeMeasureEventArgs">
+ <summary>
+ Contains the <see cref="T:StrelyCleannerPro.TimeMeasurer.TimeMeasureEventArgs"/> arguments.
+ </summary>
+</member>
+<member name="P:StrelyCleannerPro.TimeMeasurer.TimeMeasureEventArgs.Hour">
+ <summary>
+ Gets or sets the hour.
+ </summary>
+ <value>The hour.</value>
+</member>
+<member name="P:StrelyCleannerPro.TimeMeasurer.TimeMeasureEventArgs.Minute">
+ <summary>
+ Gets or sets the minute.
+ </summary>
+ <value>The minute.</value>
+</member>
+<member name="P:StrelyCleannerPro.TimeMeasurer.TimeMeasureEventArgs.Second">
+ <summary>
+ Gets or sets the Second.
+ </summary>
+ <value>The Second.</value>
+</member>
+<member name="P:StrelyCleannerPro.TimeMeasurer.TimeMeasureEventArgs.Millisecond">
+ <summary>
+ Gets or sets the Millisecond.
+ </summary>
+ <value>The Millisecond.</value>
+</member>
+<member name="M:StrelyCleannerPro.TimeMeasurer.Start(System.Double)">
+ <summary>
+ Starts the time interval measurement from zero.
+ </summary>
+ <param name="Milliseconds">Indicates the time interval to measure, in milliseconds.</param>
+</member>
+<member name="M:StrelyCleannerPro.TimeMeasurer.Stop">
+ <summary>
+ Stops the time interval measurement.
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.TimeMeasurer.Resume">
+ <summary>
+ Resumes the time interval measurement.
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.TimeMeasurer.Reset">
+ <summary>
+ Stops Time intervals and resets the elapsed and remaining time to zero.
+ </summary>
+</member>
+<member name="M:StrelyCleannerPro.TimeMeasurer.MeasureTimer_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Tick event of the MeasureTimer control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:StrelyCleannerPro.Form1.ProcessMon_ProcessStatusChanged(System.Object,XylonV2.Core.Engine.Watcher.ProcessWatcher.ProcessStatusChangedEventArgs)">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Handles the <see cref="E:XylonV2.Core.Engine.Watcher.ProcessWatcher.ProcessStatusChanged"/> event of the <see cref="P:StrelyCleannerPro.Form1.ProcessMon"/> instance.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <param name="sender">
+ The source of the event.
+ </param>
+ 
+ <param name="e">
+ The <see cref="T:XylonV2.Core.Engine.Watcher.ProcessWatcher.ProcessStatusChangedEventArgs"/> instance containing the event data.
+ </param>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:StrelyCleannerPro.AV_Alert._Clock">
+ <summary>
+ The <see cref="T:StrelyCleannerPro.TimeMeasurer"/> instance that measure time intervals.
+ </summary>
+</member>
+</members>
+</doc>

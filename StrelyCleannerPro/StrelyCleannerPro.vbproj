@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1861CAFC-8C3C-4999-A680-130008FBF551}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>StrelyCleannerPro.My.MyApplication</StartupObject>
+    <RootNamespace>StrelyCleannerPro</RootNamespace>
+    <AssemblyName>StrelyCleannerPro</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>StrelyCleannerPro.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>StrelyCleannerPro.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>StrelyCleanner_2 %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>30632EA310114105969D0BDA28FDCE267104754F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>current_cert.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="dnlib, Version=3.4.0.0, Culture=neutral, PublicKeyToken=50e96378b6e77999, processorArchitecture=MSIL">
+      <HintPath>..\packages\dnlib.3.4.0\lib\net45\dnlib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ForceDel">
+      <HintPath>..\..\XylonAntivir\Sources\XylonAntivir\XylonAntivir\bin\Debug\ForceDel.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\XylatewarePro\XylatewarePro\bin\Release\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Win32.TaskScheduler, Version=2.10.1.0, Culture=neutral, PublicKeyToken=e25603a88b3aa7da, processorArchitecture=MSIL">
+      <HintPath>..\packages\TaskScheduler.2.10.1\lib\net452\Microsoft.Win32.TaskScheduler.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ScintillaNET">
+      <HintPath>..\..\DIH\DIH\bin\Release\ScintillaNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XylonV2, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\XylonV2.1.0.7\lib\net46\XylonV2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Controls\ChartControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CircleProgressBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CircularProgress.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ConsoleHostV2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Core\Animator.vb" />
+    <Compile Include="Controls\DioMarqueeProgressBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FileBorserDialog.vb" />
+    <Compile Include="Controls\LogInTheme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MalwarePB.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Manager\ExtensionManager\ExtensionControl.Designer.vb">
+      <DependentUpon>ExtensionControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Manager\ExtensionManager\ExtensionControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Manager\ProcessManager\ProcessControl.Designer.vb">
+      <DependentUpon>ProcessControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Manager\ProcessManager\ProcessControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Manager\StartupManager\StartupControl.Designer.vb">
+      <DependentUpon>StartupControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Manager\StartupManager\StartupControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Optimizer\BoosterItem.Designer.vb">
+      <DependentUpon>BoosterItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Optimizer\BoosterItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Scanner\AV\AV_Item.Designer.vb">
+      <DependentUpon>AV_Item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Scanner\AV\AV_Item.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Core\ControlLister.vb" />
+    <Compile Include="Core\ExclusionManager.vb" />
+    <Compile Include="Core\ErrorLogger.vb" />
+    <Compile Include="Core\FlickerFix\IBufferedControl.vb" />
+    <Compile Include="Core\FlickerFix\PanelFX.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Core\FlickerFix\Win32FX.vb" />
+    <Compile Include="Core\GlassTheme.vb" />
+    <Compile Include="Core\Home\SystemInformation.vb" />
+    <Compile Include="Core\Instances.vb" />
+    <Compile Include="Core\Notify.vb" />
+    <Compile Include="Core\Optimizer\Optimize.vb" />
+    <Compile Include="Core\Optimizer\Utilities.vb" />
+    <Compile Include="Core\Path.vb" />
+    <Compile Include="Core\ScrollManager.vb" />
+    <Compile Include="Core\SetWindowState.vb" />
+    <Compile Include="Core\TimeMeasurer.vb" />
+    <Compile Include="Core\Utils.vb" />
+    <Compile Include="Core\VbNetRecipe_Dark.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConsoleDev.Designer.vb">
+      <DependentUpon>ConsoleDev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConsoleDev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HomeForm.Designer.vb">
+      <DependentUpon>HomeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HomeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagerForm.Designer.vb">
+      <DependentUpon>ManagerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manager\BrowserExtensionForm.Designer.vb">
+      <DependentUpon>BrowserExtensionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manager\BrowserExtensionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manager\ProcessManagerForm.Designer.vb">
+      <DependentUpon>ProcessManagerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manager\ProcessManagerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manager\StartupManagerForm.Designer.vb">
+      <DependentUpon>StartupManagerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manager\StartupManagerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Misc.Designer.vb">
+      <DependentUpon>Misc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Misc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NetworkForm.Designer.vb">
+      <DependentUpon>NetworkForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NetworkForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OptimizerForm.Designer.vb">
+      <DependentUpon>OptimizerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OptimizerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Optimizer\BoostingForm.Designer.vb">
+      <DependentUpon>BoostingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Optimizer\BoostingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Optimizer\ConfigForm.Designer.vb">
+      <DependentUpon>ConfigForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Optimizer\ConfigForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Optimizer\CounterFixerDialog.Designer.vb">
+      <DependentUpon>CounterFixerDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Optimizer\CounterFixerDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Optimizer\SystemInfoForm.Designer.vb">
+      <DependentUpon>SystemInfoForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Optimizer\SystemInfoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ScannerForm.Designer.vb">
+      <DependentUpon>ScannerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ScannerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scanner\CleanerForm.Designer.vb">
+      <DependentUpon>CleanerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Scanner\CleanerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scanner\ExcludeManager.Designer.vb">
+      <DependentUpon>ExcludeManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Scanner\ExcludeManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scanner\MalScanForm.Designer.vb">
+      <DependentUpon>MalScanForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Scanner\MalScanForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scanner\MalScan\AV_Alert.Designer.vb">
+      <DependentUpon>AV_Alert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Scanner\MalScan\AV_Alert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scanner\MalScan\MultiScanForm.Designer.vb">
+      <DependentUpon>MultiScanForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Scanner\MalScan\MultiScanForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scanner\RegeditForm.Designer.vb">
+      <DependentUpon>RegeditForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Scanner\RegeditForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Manager\ExtensionManager\ExtensionControl.resx">
+      <DependentUpon>ExtensionControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Manager\ProcessManager\ProcessControl.resx">
+      <DependentUpon>ProcessControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Manager\StartupManager\StartupControl.resx">
+      <DependentUpon>StartupControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Optimizer\BoosterItem.resx">
+      <DependentUpon>BoosterItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Scanner\AV\AV_Item.resx">
+      <DependentUpon>AV_Item.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConsoleDev.resx">
+      <DependentUpon>ConsoleDev.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HomeForm.resx">
+      <DependentUpon>HomeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagerForm.resx">
+      <DependentUpon>ManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manager\BrowserExtensionForm.resx">
+      <DependentUpon>BrowserExtensionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manager\ProcessManagerForm.resx">
+      <DependentUpon>ProcessManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manager\StartupManagerForm.resx">
+      <DependentUpon>StartupManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Misc.resx">
+      <DependentUpon>Misc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NetworkForm.resx">
+      <DependentUpon>NetworkForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OptimizerForm.resx">
+      <DependentUpon>OptimizerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Optimizer\BoostingForm.resx">
+      <DependentUpon>BoostingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Optimizer\ConfigForm.resx">
+      <DependentUpon>ConfigForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Optimizer\CounterFixerDialog.resx">
+      <DependentUpon>CounterFixerDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Optimizer\SystemInfoForm.resx">
+      <DependentUpon>SystemInfoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ScannerForm.resx">
+      <DependentUpon>ScannerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scanner\CleanerForm.resx">
+      <DependentUpon>CleanerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scanner\ExcludeManager.resx">
+      <DependentUpon>ExcludeManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scanner\MalScanForm.resx">
+      <DependentUpon>MalScanForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scanner\MalScan\AV_Alert.resx">
+      <DependentUpon>AV_Alert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scanner\MalScan\MultiScanForm.resx">
+      <DependentUpon>MultiScanForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scanner\RegeditForm.resx">
+      <DependentUpon>RegeditForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="current_cert.pfx" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\AddOpenWithCMD.reg" />
+    <None Include="Resources\DesktopShortcuts.reg" />
+    <None Include="Resources\DisableDefenderSafeMode1903Plus.bat" />
+    <None Include="Resources\DisableOfficeTelemetry.reg" />
+    <None Include="Resources\DisableOfficeTelemetryTasks.bat" />
+    <None Include="Resources\DisableTelemetryTasks.bat" />
+    <None Include="Resources\DisableXboxTasks.bat" />
+    <None Include="Resources\EnableOfficeTelemetry.reg" />
+    <None Include="Resources\EnableOfficeTelemetryTasks.bat" />
+    <None Include="Resources\EnableTelemetryTasks.bat" />
+    <None Include="Resources\EnableXboxTasks.bat" />
+    <None Include="Resources\FlushDNSCache.bat" />
+    <None Include="Resources\GPEditEnablerInHome.bat" />
+    <None Include="Resources\hosts" />
+    <None Include="Resources\InstallTakeOwnership.reg" />
+    <None Include="Resources\OneDrive_Uninstaller.bin" />
+    <None Include="Resources\PowerMenu.reg" />
+    <None Include="Resources\RemoveTakeOwnership.reg" />
+    <None Include="Resources\SystemShortcuts.reg" />
+    <None Include="Resources\SystemTools.reg" />
+    <None Include="Resources\WindowsApps.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127-1274197_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-biohazard-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-protect-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-warning-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chrome-64.png" />
+    <None Include="Resources\icons8-puzzle-48.png" />
+    <None Include="bin\Debug\Symbols\wntdll.pdb" />
+    <None Include="bin\Debug\Symbols\wkernelbase.pdb" />
+    <Content Include="StrelyCleanner_2 %281%29.ico" />
+    <Content Include="StrelyCleanner_2.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
