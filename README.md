@@ -1,9 +1,6 @@
-# StrelyCleaner-PRO
-Real .NET Antimalware 
-
 <h1 align="center">
 	<br>
-	<img src="https://i.ibb.co/x6Nj4VR/pngwing-com.png" alt="Strely-Pro Logo" width="100" height="100">
+	<img src="https://i.ibb.co/x6Nj4VR/pngwin-com.png" alt="Strely-Pro Logo" width="100" height="100">
 	StrelyCleaner PRO
 </h1>
 <h3 align="center">AV Engine : https://github.com/DestroyerDarkNess/XylonV2 </h3>
