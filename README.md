@@ -1,13 +1,13 @@
-<h1 align="center">
+<h1 align="LEFT">
 	<br>
-	<img src="https://i.ibb.co/x6Nj4VR/pngwin-com.png" alt="Strely-Pro Logo" width="100" height="100">
+	<img src="https://github.com/DestroyerDarkNess/StrelyCleaner-PRO/blob/main/97e742bc-7ce9-582a-9fd7-422b1c72235d.png?raw=true" alt="Strely-Pro Logo" width="100" height="100">
 	StrelyCleaner PRO
 </h1>
-<h3 align="center">AV Engine : https://github.com/DestroyerDarkNess/XylonV2 </h3>
 
-## information.
 
 This is an anti-malware application built in VB.NET. Detects many malicious malware and malicious scripts.
+
+**AV Engine :** https://github.com/DestroyerDarkNess/XylonV2 
 
 ## Test It Out
 
